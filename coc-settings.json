@@ -1,0 +1,8 @@
+{
+	"suggest.floatConfig": {
+		"border": true,
+		"rounded": true,
+		"borderhighlight": "CocFloatingBorder"
+	},
+	"coc.preferences.formatOnSave": true
+}

@@ -1,7 +1,7 @@
 return {
 	"nvim-tree/nvim-tree.lua",
-	config = function ()
-		vim.keymap.set('n', '<leader>e', "<Cmd>NvimTreeToggle<CR>", {desc="Open nvim tree"})
+	config = function()
+		vim.keymap.set('n', '<leader>e', "<Cmd>NvimTreeToggle<CR>", { desc = "Nvim Tree Window" })
 
 		require("nvim-tree").setup {
 			sort = {

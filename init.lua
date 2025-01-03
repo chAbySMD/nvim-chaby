@@ -59,4 +59,7 @@ vim.cmd([[
 	highlight StatusLine guibg=none
 	highlight FloatBorder guibg=none
 	highlight NormalFloat guibg=none
+	highlight CocFloating guibg=none
+	highlight CocFloatingBorder guibg=none guifg=#89b4fa
+	highlight CocMenuSel guibg=#313244
 ]])

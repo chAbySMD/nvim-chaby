@@ -7,7 +7,7 @@ return {
 		ls.filetype_extend("typescript", { "html" })
 		ls.filetype_extend("javascriptreact", { "html" })
 		ls.filetype_extend("typescriptreact", { "html" })
-		ls.filetype_extend("vue", { "html" })
+		-- ls.filetype_extend("vue", { "html" })
 
 		require("luasnip.loaders.from_vscode").lazy_load()
 	end,
