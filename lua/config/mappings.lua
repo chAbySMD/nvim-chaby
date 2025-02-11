@@ -40,3 +40,5 @@ vim.api.nvim_set_keymap(
 	[[coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"]],
 	{ noremap = true, silent = true, expr = true }
 )
+
+-- Coc.nvim
