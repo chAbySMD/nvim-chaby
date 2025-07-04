@@ -45,21 +45,19 @@ end
 require("config.lazy")
 require("config.mappings")
 
-vim.cmd([[colorscheme onedark]])
-
 vim.cmd([[
-  highlight Normal guibg=none
+	highlight Normal guibg=none
 	highlight NonText guibg=none
-	highlight Normal ctermbg=none
 	highlight NonText ctermbg=none
 	highlight VertSplit guibg=none guifg=none
-	highlight LineNr guibg=none guifg=#313244
-	highlight CursorLine guibg=#313244
-	highlight WinSeparator guibg=none guifg=#313244
+	highlight LineNr guibg=none guifg=#232323
+	highlight CursorLine guibg=#232323
+	highlight WinSeparator guibg=none guifg=#232323
 	highlight StatusLine guibg=none
 	highlight FloatBorder guibg=none
 	highlight NormalFloat guibg=none
 	highlight CocFloating guibg=none
 	highlight CocFloatingBorder guibg=none guifg=#89b4fa
-	highlight CocMenuSel guibg=#313244
+	highlight CocMenuSel guibg=#232323
+	highlight SnacksIndent guifg=#232323
 ]])

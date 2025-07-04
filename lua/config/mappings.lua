@@ -1,6 +1,8 @@
 vim.keymap.set("n", "<Esc>", "<Cmd>nohl<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<Tab>", "<Cmd>bnext<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<S-Tab>", "<Cmd>bprev<CR>", { noremap = true, silent = true })
 
-vim.keymap.set("n", "<leader>c", function()
+vim.keymap.set("n", "<leader>x", function()
 	local current_buf = vim.api.nvim_get_current_buf()
 	vim.cmd("BufferLineCyclePrev")
 
@@ -41,4 +43,9 @@ vim.api.nvim_set_keymap(
 	{ noremap = true, silent = true, expr = true }
 )
 
--- Coc.nvim
+vim.api.nvim_set_keymap(
+	'i',
+	'<C-Space>',
+	"coc#refresh()",
+	{ noremap = true, silent = true, expr = true }
+)

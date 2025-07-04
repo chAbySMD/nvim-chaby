@@ -1,29 +1,23 @@
 return {
 	"akinsho/bufferline.nvim",
-	dependencies = {
-		"nvim-lua/plenary.nvim", -- Required for v0.4.0+
-	},
 	config = function()
-		local map = vim.api.nvim_set_keymap
-
-		map("n", "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", {
-			silent = true,
-		})
-		map("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", {
-			silent = true,
-		})
-
-		require("bufferline").setup({
+		require('bufferline').setup {
 			options = {
+				separator_style = "thin",
 				offsets = {
 					{
 						filetype = "NvimTree",
-						separator = true,
-						text = "File explorer",
-						text_align = "center",
-					},
-				},
+						text = "File Explorer",
+						highlight = "Directory",
+						separator = true -- use a "true" to enable the default, or set your own character
+					}
+				}
 			},
-		})
-	end,
+			highlights = {
+				fill = { bg = "none" },
+				background = { bg = "none" },
+				buffer_selected = { bg = "none" },
+			}
+		}
+	end
 }

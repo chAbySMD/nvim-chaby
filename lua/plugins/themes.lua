@@ -1,11 +1,23 @@
 return {
-	"navarasu/onedark.nvim",
-	config = function()
-		require("onedark").setup({
-			transparent = true,
-			-- highlights = {
-			-- 	FloatBorder = { bg = "#00000000" },
-			-- },
+	-- "folke/tokyonight.nvim",
+	-- config = function()
+	-- 	require("tokyonight").setup({
+	-- 		transparent = true,
+	--
+	-- 		styles = {
+	-- 			sidebars = "transparent",
+	-- 			floats = "transparent",
+	-- 		}
+	-- 	})
+	-- end,
+	"catppuccin/nvim",
+	config = function ()
+
+		require("catppuccin").setup({
+			flavour = "frappe",
+			transparent_background = true
 		})
-	end,
+
+		vim.cmd.colorscheme "catppuccin"
+	end
 }

@@ -1,8 +1,13 @@
 {
-	"suggest.floatConfig": {
-		"border": true,
-		"rounded": true,
-		"borderhighlight": "CocFloatingBorder"
-	},
-	"coc.preferences.formatOnSave": true
+  "suggest.floatConfig": {
+    "rounded": true,
+    "border": true,
+    "maxWidth": 50,
+    "borderhighlight": "CocFloatingBorder"
+  },
+  "coc.preferences.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": false,
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 100
 }
