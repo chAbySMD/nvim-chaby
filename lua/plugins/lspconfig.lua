@@ -19,6 +19,14 @@ return {
 					filetypes = { "typescript", "javascript", "javascriptreact", "typescriptreact", "vue" },
 				},
 				volar = {},
+				-- vue_language_server = {
+				-- 	filetypes = { "typescript", "javascript", "javascriptreact", "typescriptreact", "vue" },
+				-- 	init_options = {
+				-- 		vue = {
+				-- 			hybridMode = false,
+				-- 		},
+				-- 	},
+				-- },
 				tailwindcss = {},
 				cssls = {},
 				html = {},
