@@ -71,6 +71,15 @@ vim.api.nvim_create_autocmd("VimEnter", {
 	end,
 })
 
+-- Undotree
+vim.opt.undofile = true
+vim.opt.undodir = vim.fn.expand("~/undotemp//") -- Папка для хранения undo-файлов
+
+local undodir = vim.fn.expand("~/undotemp")
+if not vim.fn.isdirectory(undodir) then
+	vim.fn.mkdir(undodir, "p")
+end
+
 vim.cmd([[colorscheme catppuccin-frappe]])
 
 local colors = require("assets.colors")
