@@ -11,6 +11,7 @@ return {
 			scss = { "prettierd", "prettier", stop_after_first = true },
 			vue = { "prettierd", "prettier", stop_after_first = true },
 			json = { "prettierd", "prettier", stop_after_first = true },
+			csharp = { "cshapier" },
 		},
 		format_on_save = {
 			timeout_ms = 500,

@@ -38,6 +38,9 @@ return {
 				-- 	cmd = { "/home/chaby/bin/lexical/bin/start_lexical.sh" },
 				-- },
 				qmlls = {},
+				csharp_ls = {},
+				intelephense = {},
+				bashls = {},
 			},
 		},
 
