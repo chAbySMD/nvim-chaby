@@ -108,6 +108,8 @@ vim.cmd([[
 	highlight BufferLineCloseButton guibg=none
 	highlight BufferLineCloseButtonSelected guibg=none
 	highlight BufferLineIndicatorSelected guibg=none
+	highlight TreesitterContextBottom gui=none guisp=none
+	highlight TreesitterContextLineNumber guibg=none guifg=#505050
 ]])
 
 vim.api.nvim_set_hl(0, "FloatBorder", { fg = colors.normal })

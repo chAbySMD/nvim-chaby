@@ -41,6 +41,7 @@ return {
 				csharp_ls = {},
 				intelephense = {},
 				bashls = {},
+				somesass_ls = {}
 			},
 		},
 

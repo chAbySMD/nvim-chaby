@@ -1,12 +1,12 @@
 return {
-  darkgray = "#2b211d",
+  darkgray = "#252224",
   semigray = "#242424",
-  gray     = "#8b8b8b",
+  gray     = "#8a8a8a",
   innerbg  = nil,
-  outerbg  = "#161311",
-  normal   = "#f7bf9b",
+  outerbg  = "#131314",
+  normal   = "#b4cbe0",
   insert   = "#ff8678",
-  visual   = "#d8a380",
-  replace  = "#cea58b",
+  visual   = "#95b0c6",
+  replace  = "#9dafbf",
   command  = "#ff8678",
 }

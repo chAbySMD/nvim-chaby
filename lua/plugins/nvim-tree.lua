@@ -11,7 +11,7 @@ return {
 			update_root = false,
 		},
 		view = {
-			width = 37,
+			width = 45,
 			preserve_window_proportions = true,
 		},
 		renderer = {
